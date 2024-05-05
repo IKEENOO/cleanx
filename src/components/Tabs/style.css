@@ -1,0 +1,14 @@
+.swiper {
+    width: 100%;
+    z-index: 0;
+}
+.SwiperSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.swiper__image {
+    width: 90%;
+    border-radius: 20px;
+}
