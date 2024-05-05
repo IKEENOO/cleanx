@@ -4,7 +4,7 @@ import './style.css';
 export default function Footer() {
     return (
         <>
-            <footer className="footer">
+            <footer className="footer mt-6">
                 <div className="footer__top">
                     <div className="footer__container">
                         <div className="column__one">
@@ -68,16 +68,16 @@ export default function Footer() {
                                     <h4>CleanX</h4>
                                 </li>
                                 <li>
-                                    <a href="#">Strona Główna</a>
+                                    <a href="/">Strona Główna</a>
                                 </li>
                                 <li>
-                                    <a href="#">O nas</a>
+                                    <a href="/o-nas">O nas</a>
                                 </li>
                                 <li>
-                                    <a href="#">Cennik</a>
+                                    <a href="/cennik">Cennik</a>
                                 </li>
                                 <li>
-                                    <a href="#">Kontakt</a>
+                                    <a href="/kontakt">Kontakt</a>
                                 </li>
                             </ul>
                             <ul className="footer__menu">
@@ -99,10 +99,10 @@ export default function Footer() {
                                     <h4>Szybkie linki</h4>
                                 </li>
                                 <li>
-                                    <a href="#">Realizacje</a>
+                                    <a href="/realizacje">Realizacje</a>
                                 </li>
                                 <li>
-                                    <a href="#">FAQ</a>
+                                    <a href="/pytanie-klientow">FAQ</a>
                                 </li>
                             </ul>
                         </div>

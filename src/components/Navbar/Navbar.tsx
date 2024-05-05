@@ -69,13 +69,12 @@ const Navbar = () => {
             <input id="nav-toggle" type="checkbox" />
             
             <ul className="links">
-                <li><a href="#">Strona Główna</a></li>
-                <li><a href="#">O nas</a></li>
-                <li><a href="#">Cennik</a></li>
-                <li><a href="#">Realizacje</a></li>
-                <li><a href="#">Pytanie klientów</a></li>
-                <li><a href="#">Gdzie działamy</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="/">Strona Główna</a></li>
+                <li><a href="/o-nas">O nas</a></li>
+                <li><a href="/cennik">Cennik</a></li>
+                <li><a href="/realizacje">Realizacje</a></li>
+                <li><a href="/pytanie-klientow">Pytanie klientów</a></li>
+                <li><a href="/kontakt">Kontakt</a></li>
             </ul>
 
             <label htmlFor="nav-toggle" className="icon-burger">
