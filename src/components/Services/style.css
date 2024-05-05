@@ -1,0 +1,27 @@
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+.service {
+    background-color: rgb(243 244 246);
+    color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.image {
+    border-radius: 20px;
+}
+.service__desc {
+    color: rgb(51 65 85);
+    padding: 10px;
+}
