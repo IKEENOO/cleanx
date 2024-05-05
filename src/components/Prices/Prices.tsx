@@ -7,7 +7,7 @@ const Prices = () => {
     <div className="prices">
         <div className="price__item">
             <Image 
-                src="/assets/q.jpg"
+                src="/assets/prices/1.jpg"
                 alt="1"
                 width={200}
                 height={200}
@@ -22,7 +22,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/2.jpg"
+                src="/assets/prices/2.jpg"
                 alt="2"
                 width={200}
                 height={200}
@@ -37,7 +37,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/3.jpg"
+                src="/assets/prices/3.jpg"
                 alt="3"
                 width={200}
                 height={200}
@@ -52,7 +52,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/4.jpg"
+                src="/assets/prices/4.jpg"
                 alt="4"
                 width={200}
                 height={200}
@@ -67,7 +67,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/5.jpg"
+                src="/assets/prices/5.jpg"
                 alt="5"
                 width={200}
                 height={200}
@@ -82,7 +82,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/6.jpg"
+                src="/assets/prices/6.jpg"
                 alt="6"
                 width={200}
                 height={200}
@@ -97,7 +97,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/7.jpg"
+                src="/assets/prices/7.jpg"
                 alt="7"
                 width={200}
                 height={200}
@@ -112,7 +112,7 @@ const Prices = () => {
         </div>
         <div className="price__item">
             <Image 
-                src="/assets/8.jpg"
+                src="/assets/prices/8.jpg"
                 alt="8"
                 width={200}
                 height={200}
