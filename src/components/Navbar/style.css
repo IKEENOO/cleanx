@@ -1,3 +1,26 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+@media screen and (max-width: 1350px) {
+	body {
+        margin-top: 65px;
+    }
+}
+.container {
+    width: 70%;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+}
 .navbar {
     position: fixed;
 	z-index: 1;
