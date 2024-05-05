@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 75vh;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 764px) {
+    .main {
+        width: 100%;
+        height: 85vh;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .main__block {
+        width: 100%;
+    }
+}
+.main__block {
+    width: clamp(300px, 40%, 750px);
+}
+.main {
+    background-image: url(/assets/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form__link {
+    width: 100%;
+    background-color: #0066fe;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+}
