@@ -1,0 +1,32 @@
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(243 244 246);
+    padding: 20px;
+}
+.projects__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.p__item {
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+}
+.p__img {
+    border-radius: 20px;
+}
