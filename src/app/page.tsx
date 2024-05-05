@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import Main from "@/components/Main/Main";
 import Services from "@/components/Services/Services";
 import Process from "@/components/Process/Process";
+import Projects from "@/components/Projects/Projects";
+import Prices from "@/components/Prices/Prices";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Tabs from "@/components/Tabs/Tabs";
 import AccordionQuestions from "@/components/Accordion/AccordionQuestioans";
@@ -29,6 +31,16 @@ export default function Home() {
           Jak wygląda proces prania tapicerki? 
         </h2>
         <Process></Process>
+
+        <h2 className="py-4 text-3xl font-bold text-center">
+          Realizacje 
+        </h2>
+        <Projects></Projects>
+
+        <h2 className="py-4 text-3xl font-bold text-center">
+          Cennik usług 
+        </h2>
+        <Prices></Prices>
 
         <h2 className="py-4 text-3xl font-bold text-center">
           Kilka słów o nas 
