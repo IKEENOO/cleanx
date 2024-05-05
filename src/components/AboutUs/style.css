@@ -1,0 +1,27 @@
+.about__us {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.block {
+    width: clamp(300px, 40%, 640px);
+    background-color: rgb(243 244 246);
+    color: rgb(51 65 85);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.block__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
