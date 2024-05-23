@@ -27,7 +27,7 @@ const Services = () => {
                 Pranie wykładzin biurowych
             </h3>
             <p className="service__desc">
-                Pranie wykładzin biurowych, pranie dywanów w mieszkaniu u klienta…
+                Pranie divanov i wykladzin w mieszkaniach
             </p>
             <Image
                 className="image"

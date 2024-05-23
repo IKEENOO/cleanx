@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className="upper__menu">
 
                     <Image
-                        src="/assets/white_logo.png"
+                        src="/assets/cleanx-logo.png"
                         alt="cleanx-logo"
                         width={64}
                         height={64}
@@ -18,48 +18,38 @@ const Navbar = () => {
                     />
 
                     <div className="social__link">
-
-                        <Image
-                            src="/assets/instagram.png"
-                            alt="instagram"
-                            width={24}
-                            height={24}
-                            priority
-                        />
+                        <a href="https://www.instagram.com/cleanx.pl/?igsh=MXZpZWZreXU4emhvZA%3D%3D&utm_source=qr" target="_blank">
+                            <Image
+                                src="/assets/instagram.png"
+                                alt="instagram"
+                                width={24}
+                                height={24}
+                                priority
+                            />
+                        </a>
                         
-                        <Image
-                            src="/assets/facebook.png"
-                            alt="facebook"
-                            width={24}
-                            height={24}
-                            priority
-                        />
-
-                        <Image
-                            src="/assets/tik-tok.png"
-                            alt="tik-tok"
-                            width={24}
-                            height={24}
-                            priority
-                        />
-
-                        <Image
-                            src="/assets/youtube.png"
-                            alt="youtube"
-                            width={24}
-                            height={24}
-                            priority
-                        />
+                        <a href="https://www.tiktok.com/@cleanx.pl?_t=8mB0sBFqu3M&_r=1" target="_blank">
+                            <Image
+                                src="/assets/tik-tok.png"
+                                alt="tik-tok"
+                                width={24}
+                                height={24}
+                                priority
+                            />
+                        </a>
+                        
 
                     </div>
-                    
-                    <Image
-                        src="/assets/phone-call.png"
-                        alt="phone-call"
-                        width={24}
-                        height={24}
-                        priority
-                    />
+
+                    <a href="tel:+48791478086">
+                        <Image
+                            src="/assets/phone-call.png"
+                            alt="phone-call"
+                            width={24}
+                            height={24}
+                            priority
+                        />
+                    </a>
 
                 </div>
 

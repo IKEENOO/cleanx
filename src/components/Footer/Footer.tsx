@@ -17,18 +17,7 @@ export default function Footer() {
                             />
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        <Image 
-                                            src="/assets/facebook.png"
-                                            alt="facebook"
-                                            width={24}
-                                            height={24}
-                                            priority
-                                        />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/cleanx.pl/?igsh=MXZpZWZreXU4emhvZA%3D%3D&utm_source=qr" target="_blank">
                                         <Image 
                                             src="/assets/instagram.png"
                                             alt="instagram"
@@ -39,21 +28,10 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.tiktok.com/@cleanx.pl?_t=8mB0sBFqu3M&_r=1" target="_blank">
                                         <Image 
                                             src="/assets/tik-tok.png"
                                             alt="tik-tok"
-                                            width={24}
-                                            height={24}
-                                            priority
-                                        />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <Image 
-                                            src="/assets/youtube.png"
-                                            alt="youtube"
                                             width={24}
                                             height={24}
                                             priority
@@ -85,13 +63,13 @@ export default function Footer() {
                                     <h4>Uslugi</h4>
                                 </li>
                                 <li>
-                                    <a href="#">Pranie tapicerki meblowej</a>
+                                    <a href="/cennik">Pranie tapicerki meblowej</a>
                                 </li>
                                 <li>
-                                    <a href="#">Pranie wykładziny biurowej</a>
+                                    <a href="/cennik">Pranie wykładziny biurowej</a>
                                 </li>
                                 <li>
-                                    <a href="#">Pranie materaca</a>
+                                    <a href="/cennik">Pranie materaca</a>
                                 </li>
                             </ul>
                             <ul className="footer__menu">

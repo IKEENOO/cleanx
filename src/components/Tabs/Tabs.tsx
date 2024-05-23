@@ -24,8 +24,8 @@ const Tabs = () => {
           className='swiper__image'
           src="/assets/materaca.jpg"
           alt="materaca"
-          width={300}
-          height={300}
+          width={1280}
+          height={720}
           priority
         />
 
@@ -41,8 +41,8 @@ const Tabs = () => {
           className='swiper__image'
           src="/assets/mebli.jpg"
           alt="mebli"
-          width={300}
-          height={300}
+          width={1280}
+          height={720}
           priority
         />
 
@@ -58,8 +58,8 @@ const Tabs = () => {
           className='swiper__image'
           src="/assets/duwanu.jpg"
           alt="duwanu"
-          width={300}
-          height={300}
+          width={1280}
+          height={720}
           priority
         />
 
@@ -75,8 +75,8 @@ const Tabs = () => {
           className='swiper__image'
           src="/assets/biurowych.jpg"
           alt="biurowych"
-          width={300}
-          height={300}
+          width={1280}
+          height={720}
           priority
         />
 
