@@ -8,5 +8,9 @@
 }
 .process__step {
     width: 300px;
-
+    text-align: center;
 }
+.process__step img {
+        width: 100%;
+        border-radius: 20px;
+    }

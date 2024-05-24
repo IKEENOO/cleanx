@@ -54,9 +54,9 @@ export default function Footer() {
                                 <li>
                                     <a href="/cennik">Cennik</a>
                                 </li>
-                                <li>
+                                {/*<li>
                                     <a href="/kontakt">Kontakt</a>
-                                </li>
+                                </li>*/}
                             </ul>
                             <ul className="footer__menu">
                                 <li>

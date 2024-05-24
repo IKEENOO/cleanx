@@ -64,7 +64,7 @@ const Navbar = () => {
                 <li><a href="/cennik">Cennik</a></li>
                 <li><a href="/realizacje">Realizacje</a></li>
                 <li><a href="/pytanie-klientow">Pytanie klientów</a></li>
-                <li><a href="/kontakt">Kontakt</a></li>
+                {/*<li><a href="/kontakt">Kontakt</a></li>*/}
             </ul>
 
             <label htmlFor="nav-toggle" className="icon-burger">

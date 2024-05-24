@@ -24,4 +24,5 @@
 .service__desc {
     color: rgb(51 65 85);
     padding: 10px;
+    text-align: center;
 }

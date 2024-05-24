@@ -25,7 +25,7 @@ const Process = () => {
         </div>
         <div className="process__step">
             <Image
-                src="/assets/guarantee_of_quality.png"
+                src="/assets/process.jpg"
                 alt="guarantee-of-quality"
                 width={300}
                 height={300}

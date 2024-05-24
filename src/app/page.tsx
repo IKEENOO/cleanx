@@ -57,7 +57,7 @@ export default function Home() {
         </h2>
         <AccordionQuestions></AccordionQuestions>
 
-        <h2 className="py-4 text-3xl font-bold text-center">
+        <h2 id="form" className="py-4 text-3xl font-bold text-center">
           Zamów pranie już teraz
         </h2>
         <Form></Form>
