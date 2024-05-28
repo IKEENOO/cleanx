@@ -14,6 +14,8 @@ const Process = () => {
                 jaki będzie rezultat końcowy. Dzięki naszemu doświadczeniu w 98% 
                 przypadkach pozbywamy się wszyskich plam i zapachów
             </p>
+        </div>
+        <div className="process__step">
             <h3 className="py-2 font-bold">
                 2. Zabezpieczenie
             </h3>
@@ -25,6 +27,7 @@ const Process = () => {
         </div>
         <div className="process__step">
             <Image
+                className="py-2"
                 src="/assets/process.jpg"
                 alt="guarantee-of-quality"
                 width={300}

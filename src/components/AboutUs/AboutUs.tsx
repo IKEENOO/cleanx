@@ -70,7 +70,7 @@ const AboutUs = () => {
         <div className="block">
             <div className="block__header">
                 <Image
-                src="/assets/secure_payment.png"
+                src="/assets/punctuality.png"
                 alt="punctuality"
                 width={48}
                 height={48}
@@ -106,7 +106,7 @@ const AboutUs = () => {
         <div className="block">
             <div className="block__header">
                 <Image
-                src="/assets/secure_payment.png"
+                src="/assets/eco_measures.png"
                 alt=""
                 width={48}
                 height={48}
