@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    //output: 'export'
-};/*
-module.exports = {
-    images: {
-      domains: ['localhost']
-    }
-  }*/
+  output: 'export',
+  images: {
+    domains: ['localhost']
+  }
+};
 
 export default nextConfig;

@@ -17,7 +17,7 @@ const Prices = () => {
                 Pranie kanapy 2-osobowej
             </p>
             <p className="price">
-                80 zł
+                145 zł
             </p>
         </div>
         <div className="price__item">
@@ -32,7 +32,7 @@ const Prices = () => {
                 Pranie kanapy 3-osobowej
             </p>
             <p className="price">
-                80 zł
+                180 zł
             </p>
         </div>
         <div className="price__item">
@@ -47,7 +47,7 @@ const Prices = () => {
                 Pranie oddzielnej poduszki oparciowej kanapy
             </p>
             <p className="price">
-                80 zł
+                15 zł
             </p>
         </div>
         <div className="price__item">
@@ -62,7 +62,7 @@ const Prices = () => {
                 Pranie krzesła z miękkim oparciem
             </p>
             <p className="price">
-                80 zł
+                35 zł
             </p>
         </div>
         <div className="price__item">
@@ -77,7 +77,7 @@ const Prices = () => {
                 Pranie narożnika (do 2,5 m długości)
             </p>
             <p className="price">
-                80 zł
+                230 zł
             </p>
         </div>
         <div className="price__item">
@@ -92,7 +92,7 @@ const Prices = () => {
                 Pranie materaca jednoosobowego
             </p>
             <p className="price">
-                80 zł
+                75/140 zł
             </p>
         </div>
         <div className="price__item">
@@ -107,7 +107,7 @@ const Prices = () => {
                 Pranie materaca dwuosobowego
             </p>
             <p className="price">
-                80 zł
+                100/200 zł
             </p>
         </div>
         <div className="price__item">
@@ -122,7 +122,52 @@ const Prices = () => {
                 Pranie łóżka z wezgłowiem
             </p>
             <p className="price">
+                155 zł
+            </p>
+        </div>
+        <div className="price__item">
+            <Image 
+                src="/assets/prices/image-27-22.png"
+                alt="8"
+                width={200}
+                height={200}
+                priority
+            />
+            <p className="item__name">
+                Pranie wózka dziecięcego
+            </p>
+            <p className="price">
                 80 zł
+            </p>
+        </div>
+        <div className="price__item">
+            <Image 
+                src="/assets/prices/image-27-23.png"
+                alt="8"
+                width={200}
+                height={200}
+                priority
+            />
+            <p className="item__name">
+                Pranie zabawek dziecięcy
+            </p>
+            <p className="price">
+                Wycena indywidualna
+            </p>
+        </div>
+        <div className="price__item">
+            <Image 
+                src="/assets/prices/office_carpet.png"
+                alt="8"
+                width={200}
+                height={200}
+                priority
+            />
+            <p className="item__name">
+                Pranie wykładziny powyżej
+            </p>
+            <p className="price">
+                Wycena indywidualna
             </p>
         </div>
     </div>
