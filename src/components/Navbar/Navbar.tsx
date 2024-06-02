@@ -8,14 +8,17 @@ const Navbar = () => {
             <div className="menu">
 
                 <div className="upper__menu">
-
-                    <Image
-                        src="/assets/cleanx-logo.png"
-                        alt="cleanx-logo"
-                        width={64}
-                        height={64}
-                        priority
-                    />
+                    
+                    <a href="/">
+                        <Image
+                            src="/assets/cleanx-logo.png"
+                            alt="cleanx-logo"
+                            width={64}
+                            height={64}
+                            priority
+                        />
+                    </a>
+                    
 
                     <div className="social__link">
                         <a href="https://www.instagram.com/cleanx.pl/?igsh=MXZpZWZreXU4emhvZA%3D%3D&utm_source=qr" target="_blank">
