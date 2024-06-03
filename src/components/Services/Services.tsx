@@ -11,11 +11,11 @@ const Services = () => {
             </h3>
             <p className="service__desc">
                 Pranie tapicerki kanap, krzeseł, foteli, 
-                narożników i wieliu innych mebli…
+                narożników i wieliu innych mebli
             </p>
             <Image
                 className="image"
-                src="/assets/furniture_upholstery.jpg"
+                src="/assets/125.jpg"
                 alt="furniture-upholstery"
                 width={250}
                 height={250}
@@ -31,7 +31,7 @@ const Services = () => {
             </p>
             <Image
                 className="image"
-                src="/assets/office_carpets.jpg"
+                src="/assets/123.jpg"
                 alt="office-carpets"
                 width={250}
                 height={250}
@@ -43,11 +43,11 @@ const Services = () => {
                 Pranie materaca 
             </h3>
             <p className="service__desc">
-                Pranie materaca, wezgłowia, pranie łóżek, pranie wózków dziecięcych…
+                Pranie materaca, wezgłowia, pranie łóżek, pranie wózków dziecięcych
             </p>
             <Image
                 className="image"
-                src="/assets/mattress.jpg"
+                src="/assets/124.jpg"
                 alt="mattress"
                 width={250}
                 height={250}
