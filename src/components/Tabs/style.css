@@ -1,14 +1,28 @@
-.swiper {
+.about__us {
     width: 100%;
-    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.SwiperSlide {
+.block {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(243 244 246);
+    color: rgb(51 65 85);
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+    gap: 10px;
 }
-.swiper__image {
-    width: 90%;
-    border-radius: 20px;
+.block__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }

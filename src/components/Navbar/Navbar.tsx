@@ -55,10 +55,12 @@ const Navbar = () => {
                                 priority
                             />
                         </a>
-
-                        <div className="contact">
-                            KONTAKT
-                        </div>
+                        
+                        <a href="/kontakt">
+                            <div className="contact">
+                                KONTAKT
+                            </div>
+                        </a>
 
                     </div>
 

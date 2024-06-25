@@ -1,88 +1,63 @@
 import React from 'react';
 import Image from "next/image";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 import "./style.css";
 
 
 
 const Tabs = () => {
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      loop={true}
-    >
-      
-      <SwiperSlide className='SwiperSlide'>
-        
-        <p className="py-2">
-          Pranie chemiczne materaca
-        </p>
+    <div className="about__us">
+        <div className="block">
 
-        <Image
-          className='swiper__image'
-          src="/assets/materaca.jpg"
-          alt="materaca"
-          width={1280}
-          height={720}
-          priority
-        />
+            <div className="block__header">
+            
+                <p className="block__title">
+                  Pranie chemiczne materaca 
+                </p>
 
-      </SwiperSlide>
-      
-      <SwiperSlide className='SwiperSlide'>
-        
-        <p className="py-2">
-          Pranie chemiczne mebli
-        </p>
+            </div>
+                
+            <p className="block__desc">
+              Pranie chemiczne materaca to skuteczna metoda usuwania plam, kurzu i roztoczy. 
+              Dzięki specjalistycznym środkom czyszczącym i zaawansowanym technologiom, 
+              pranie chemiczne zapewnia głębokie oczyszczenie, pozostawiając materac świeży i wolny od alergenów.
+            </p>
 
-        <Image
-          className='swiper__image'
-          src="/assets/mebli.jpg"
-          alt="mebli"
-          width={1280}
-          height={720}
-          priority
-        />
+        </div>
+        <div className="block">
 
-      </SwiperSlide>
-      
-      <SwiperSlide className='SwiperSlide'>
-        
-        <p className="py-2">
-          Pranie chemiczne dywanu
-        </p>
+            <div className="block__header">
+            
+                <p className="block__title">
+                  Pranie wykładzin biurowych
+                </p>
 
-        <Image
-          className='swiper__image'
-          src="/assets/duwanu.jpg"
-          alt="duwanu"
-          width={1280}
-          height={720}
-          priority
-        />
+            </div>
+                
+            <p className="block__desc">
+              Pranie wykładzin biurowych to kluczowy element utrzymania czystości i higieny w miejscu pracy. 
+              Profesjonalne pranie usuwa kurz, plamy i alergeny, co poprawia jakość powietrza i komfort pracowników. 
+              Czyste wykładziny biurowe tworzą również pozytywny wizerunek firmy i przyczyniają się do przyjemniejszego środowiska pracy.
+            </p>
 
-      </SwiperSlide>
-      
-      <SwiperSlide className='SwiperSlide'>
-        
-        <p className="py-2">
-          Pranie wykładzin biurowych
-        </p>
+        </div>
+        <div className="block">
 
-        <Image
-          className='swiper__image'
-          src="/assets/biurowych.jpg"
-          alt="biurowych"
-          width={1280}
-          height={720}
-          priority
-        />
+            <div className="block__header">
+            
+                <p className="block__title">
+                  Pranie chemiczne dywanu 
+                </p>
 
-      </SwiperSlide>
+            </div>
+                
+            <p className="block__desc">
+              Pranie chemiczne dywanu pozwala na głębokie oczyszczenie włókien, eliminację trudnych plam oraz nieprzyjemnych zapachów. 
+              Profesjonalne pranie chemiczne zapewnia, że dywan będzie wyglądał jak nowy, przy jednoczesnym zachowaniu jego struktury i kolorów.
+            </p>
 
-    </Swiper>
+        </div>
+    </div>
   )
 }
 
