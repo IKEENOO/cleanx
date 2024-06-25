@@ -44,15 +44,23 @@ const Navbar = () => {
 
                     </div>
 
-                    <a href="tel:+48791478086">
-                        <Image
-                            src="/assets/phone-call.png"
-                            alt="phone-call"
-                            width={24}
-                            height={24}
-                            priority
-                        />
-                    </a>
+                    <div className="contacts">
+
+                        <a href="tel:+48791478086">
+                            <Image
+                                src="/assets/phone-call.png"
+                                alt="phone-call"
+                                width={24}
+                                height={24}
+                                priority
+                            />
+                        </a>
+
+                        <div className="contact">
+                            KONTAKT
+                        </div>
+
+                    </div>
 
                 </div>
 

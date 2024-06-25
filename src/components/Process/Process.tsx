@@ -10,9 +10,9 @@ const Process = () => {
                 1. Proces prania
             </h3>
             <p>
-                Przed rozpoczęciem prania nasz pracownik ocenia i informuje klienta 
-                jaki będzie rezultat końcowy. Dzięki naszemu doświadczeniu w 98% 
-                przypadkach pozbywamy się wszyskich plam i zapachów
+                Przed rozpoczęciem prania nasz specjalista ocenia stan tkanin i informuje 
+                klienta o możliwym rezultacie. Dzięki naszemu doświadczeniu w 98% przypadków 
+                skutecznie usuwamy wszystkie plamy i zapachy. 
             </p>
         </div>
         <div className="process__step">
@@ -20,9 +20,9 @@ const Process = () => {
                 2. Zabezpieczenie
             </h3>
             <p>
-                Podczas pracy zabezpieczamy podłogę ręcznikami lub folią. Każdy z 
-                naszych pracowników po wejściu do klienta zakłada czyste buty. 
-                Nie chlapiemy na ściany, po sobie zostawiamy czystą podłogę i kanapę
+                Podczas pracy chronimy podłogę ręcznikami lub folią. Każdy z naszych pracowników, 
+                wchodząc do domu klienta, zakłada czyste obuwie. Staramy się nie zachlapać ścian 
+                i zostawiamy po sobie czystą podłogę oraz kanapę.
             </p>
         </div>
         <div className="process__step">

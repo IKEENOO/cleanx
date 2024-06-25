@@ -15,7 +15,7 @@ const Services = () => {
             </p>
             <Image
                 className="image"
-                src="/assets/125.jpg"
+                src="/assets/123.jpg"
                 alt="furniture-upholstery"
                 width={250}
                 height={250}
@@ -31,7 +31,7 @@ const Services = () => {
             </p>
             <Image
                 className="image"
-                src="/assets/123.jpg"
+                src="/assets/124.jpg"
                 alt="office-carpets"
                 width={250}
                 height={250}
@@ -47,7 +47,7 @@ const Services = () => {
             </p>
             <Image
                 className="image"
-                src="/assets/124.jpg"
+                src="/assets/125.jpg"
                 alt="mattress"
                 width={250}
                 height={250}

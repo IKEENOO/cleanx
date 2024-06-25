@@ -24,30 +24,11 @@ const AboutUs = () => {
             </div>
                 
             <p className="block__desc">
-                Nadamy rabat lub zwrócimy do 100% pieniędzy, 
-                jeśli usługa nie spełniło oczekiwania klienta i rezultat 
-                prania był inny, niż zapowiedziany.
+                Gwarantujemy zwrot 100% opłaty, 
+                jeśli klient nie będzie zadowolony 
+                z efektu prania!!!
             </p>
 
-        </div>
-        <div className="block">
-            <div className="block__header">
-                <Image
-                src="/assets/professional_equipment.png"
-                alt="professional-equipment"
-                width={48}
-                height={48}
-                priority
-            />
-            <p className="block__title">
-                Profesjonalny sprzęt
-            </p>
-            </div>
-            <p className="block__desc">
-                Nie używamy żadnego sprzętu typu Karcher i innych 
-                mas-marketowych odkurzaczy. 
-                Tylko i wyłącznie profesjonalny sprzęt!
-            </p>
         </div>
         <div className="block">
             <div className="block__header">
@@ -70,24 +51,6 @@ const AboutUs = () => {
         <div className="block">
             <div className="block__header">
                 <Image
-                src="/assets/punctuality.png"
-                alt="punctuality"
-                width={48}
-                height={48}
-                priority
-            />
-            <p className="block__title">
-                Punktualność
-            </p>
-            </div>
-            <p className="block__desc">
-                W razie spóźnienia, (co się zdarza bardzo rzadko) więcej 
-                niż o 30 minut nadamy rabat na pranie tapicerki meblowej.
-            </p>
-        </div>
-        <div className="block">
-            <div className="block__header">
-                <Image
                 src="/assets/reliability.png"
                 alt="reliability"
                 width={48}
@@ -99,25 +62,10 @@ const AboutUs = () => {
             </p>
             </div>
             <p className="block__desc">
-                Dotrzymujemy się technologii i regulaminu podczas prania 
-                tapicerki meblowej, wykładzin i materacy. Nam można ufać!
-            </p>
-        </div>
-        <div className="block">
-            <div className="block__header">
-                <Image
-                src="/assets/eco_measures.png"
-                alt=""
-                width={48}
-                height={48}
-                priority
-            />
-            <p className="block__title">
-                Bezpieczne EKO środki
-            </p>
-            </div>
-            <p className="block__desc">
-                Wykorzystamy tylko i wyłącznie hipoalergiczne EKO środki, które są absolutnie bezpieczne dla dzieci i zwierząt domowych.
+                Podczas prania tapicerki meblowej, 
+                wykładzin i materacy przestrzegamy 
+                technologii i regulaminów. 
+                Można nam zaufać!
             </p>
         </div>
     </div>

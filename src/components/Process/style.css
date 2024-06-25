@@ -6,10 +6,23 @@
     flex-wrap: wrap;
     color: #000;
 }
+
 .process__step {
     width: 300px;
+    height: 275px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(243 244 246);
+    padding: 10px;
     text-align: center;
 }
+.process__step:last-child {
+    background-color: #fff;
+}
 .process__step img {
-        border-radius: 20px;
-    }
+    border-radius: 20px;
+}

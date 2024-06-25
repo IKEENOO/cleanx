@@ -8,6 +8,18 @@ body {
     flex-direction: column;
     margin-top: 130px;
 }
+.contacts {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 10px;
+}
+.contact {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
 @media screen and (max-width: 1350px) {
 	body {
         margin-top: 65px;

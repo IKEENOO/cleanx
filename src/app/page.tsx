@@ -62,8 +62,6 @@ export default function Home() {
         </h2>
         <Form></Form>
 
-        <UpholsteryCleaning></UpholsteryCleaning>
-
       </div>
 
       <Footer></Footer>
