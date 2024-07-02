@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     color: #000;
+    gap: 20px;
 }
 
 .process__step {

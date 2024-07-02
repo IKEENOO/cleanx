@@ -25,6 +25,22 @@ export default function Home() {
                     </a>
                 </div>
 
+                <div className="telephone">
+                    <p>
+                        Whatsapp:
+                    </p>
+
+                    <a href="https://wa.me/+48791478086">
+                        <Image
+                            src={"/assets/whatsapp.png"}
+                            alt="Whatsapp"
+                            width={32}
+                            height={32}
+                            priority
+                        />
+                    </a>
+                </div>
+
                 <p>
                     Jesteśmy w sieciach społecznościowych:
                 </p>
